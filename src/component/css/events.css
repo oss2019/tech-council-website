@@ -1,0 +1,8 @@
+.events {
+    height : 99.5vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(29, 25, 42);
+    
+}

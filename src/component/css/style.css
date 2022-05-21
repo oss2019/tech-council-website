@@ -1,0 +1,38 @@
+/*for the overall body of the Home Page */
+.wrapper {
+    height : 99.5vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(29, 25, 42);
+    
+    
+}
+/*edit this for the animation of Home Page */
+.typing1 {
+    width: 50ch;
+    animation: typing 1.2s steps(10),
+    blink .5s step-end infinite alternate;
+    white-space:nowrap;
+    overflow:hidden;
+    font-family:monospace;
+    font-size:2em;
+    padding-bottom:12ch;
+    font-weight:bold;
+    color:rgb(255, 255, 255);
+}
+@keyframes typing {
+    from {
+        width:0
+    }   
+}
+@keyframes blink {
+    100% {
+        border-color:transparent;
+    }
+    
+}
+/*for the background of the header */
+.navbar {
+    background-color:rgb(11, 10, 13);
+}
