@@ -1,10 +1,17 @@
+import React from "react";
+import Navbar from "./componets/Navbar";
+import Jumbotron from "./componets/Jumbotron";
+
 
 import './App.css';
-import Home from './component/home';
 function App() {
   return (
-   <Home />
+    <>
+  <Jumbotron />
+  <Navbar />
+    </>
   );
 }
-
 export default App;
+
+
