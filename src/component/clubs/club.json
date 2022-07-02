@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "Name":"Coding Club",
+        "desc":"Official Coding Club of IITDh"
+
+    },
+    {
+        "id": "2",
+        "Name":"Cosmosoc Club",
+        "desc":"Official Data Science and Space Club of IITDh"
+
+    },
+    {
+        "id": "3",
+        "Name":"AI Club",
+        "desc":"Official Artificial Intelligence Club of IITDh"
+
+    },
+    {
+        "id": "4",
+        "Name":"Robotics Club",
+        "desc":"Official Robotics Club of IITDh"
+
+    },
+
+    {
+        "id": "5",
+        "Name":"Insolvent Club",
+        "desc":"Official Finance Club of IITDh"
+
+    }, {
+        "id": "6",
+        "Name":"Open Source Society",
+        "desc":"Open Source Society - IITDh organization"
+
+    }
+]
