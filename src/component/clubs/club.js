@@ -16,9 +16,9 @@ function Clubs() {
   
   return (
   <div>
-  <div className='resources'id='resources'>
-    <div className='box' >
-    <h2 className='club' style={{paddingRight:'6rem'}}>IITDh Clubs</h2>
+  <div className='resources1'id='resources'>
+    <div className='box1' >
+    <h2 className='club1' style={{paddingRight:'6rem'}}>IITDh Clubs</h2>
     <h2 className='organizer-head' style={{paddingRight:'4rem'}}>IITDh Organization</h2>
     <div>
     <ul className="panels">

@@ -1,6 +1,6 @@
 /*for big screen*/
 @media screen and (min-width:1026px){
-  .resources {
+  .resources1 {
     min-height :155.5vh;
     display: flex;
     align-items:center;
@@ -11,7 +11,7 @@
     
     
 }
-.box{
+.box1{
     max-width: 100%;
     gap: 3;
     max-width:170vh;
@@ -20,7 +20,7 @@
     
 }
 
-.club{
+.club1{
     position:absolute;
     text-align:center;
     bottom:100vh;
@@ -111,16 +111,16 @@ li {
   letter-spacing: 5px;
   cursor: pointer;
 }
-.box div.back{
+.box1 div.back{
   transform:rotateY(90deg);
 }
-.box div.front{
+.box1 div.front{
   position:absolute;
 }
-.box li:hover div.front{
+.box1 li:hover div.front{
   animation: twirl 0.2s ease-out forwards;
 }
-.box li:hover div.back{
+.box1 li:hover div.back{
   animation: twirl 0.2s 0.2s ease-out forwards reverse;
 }
 

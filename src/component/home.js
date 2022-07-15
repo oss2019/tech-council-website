@@ -3,11 +3,11 @@ import ButtonAppBar from './buttonAppBar';
 import Main from './main';
 import Clubs from './clubs/club.js';
 import Contactus from './contactus';
+import Club_recruitment from './club_recruitment'
 import Team from './team';
 import Events from './events';
-import mediaQuery from 'css-mediaquery';
 import { ThemeProvider } from '@material-ui/core/styles';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
+import FooterIconsDemo from './FooterIconsDemo.jsx';
 
 
 
@@ -18,11 +18,10 @@ function Home() {
     
       
         <ButtonAppBar />
-        <Main />
+        <Club_recruitment />
         <Clubs />
         <Events/>
         <Team/>
-        <Contactus/>
     </div>
   );
 }

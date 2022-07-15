@@ -3,7 +3,7 @@ import {Typography} from '@material-ui/core';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import './css/contactus.css';
-import { LocationOn as LocationOnIcon, GitHub as GitHubIcon, Link as LinkIcon } from '@material-ui/icons';
+
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -41,9 +41,6 @@ function Contactus() {
       </Grid>
       <Grid item sm={6} xs={12}>
         <Typography variant="h6" container justifyContent="space-between" className={classes.icons}>
-          <GitHubIcon/>
-          <LocationOnIcon/>
-          <LinkIcon/>
         </Typography>
       </Grid>
       </Grid>
