@@ -1,0 +1,96 @@
+@media screen {
+    .resources1 {
+      min-height :175.5vh;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+      background-color:rgb(29, 25, 42);
+      position:relative;
+      color:cyan;    
+  }
+  .box1{
+    flex-direction: row; 
+}
+.club1{
+    position:relative;
+    text-align:center;
+    min-height: 16vh;
+    font-size:7vh;
+    font-weight:bold;
+  }  
+p {
+    font-size: 2vh;
+    position:relative;
+    
+  }
+  li.sadock  {
+    position:relative;
+    justify-content: center;
+    background-color:rgb(102, 102, 102);
+    border-radius:2vh;
+    width: 100%;
+}
+.none{
+  opacity: 0;
+}
+.panels{
+  list-style-type: none;
+  position: relative;
+  display:flex;
+  box-sizing: border-box;
+  border-radius: 0.1rem;
+  gap:5vh;
+  max-width:auto;
+}
+.panels li{
+  position: relative;
+  width: 25%;
+  display: flex;
+  box-sizing: border-box;
+  float: top;
+}
+/* .back{
+  position: inherit;
+ } */
+ .front{
+   /* align-items: top; */
+   /* position: inherit; */
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items:center;
+ } 
+ .moinub {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+ }
+ .panels .sadock div{
+  max-width: 100%;
+  padding: 50% 0;
+  text-align: center;
+  color:black;
+  font-size: 20px;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.box1 div.back{
+  transform:rotateY(90deg);
+}
+.box1 div.front{
+  position:absolute;
+}
+.box1 li:hover div.front{
+  animation: twirl 0.2s ease-out forwards;
+}
+.box1 li:hover div.back{
+  animation: twirl 0.2s 0.2s ease-out forwards reverse;
+}
+
+@keyframes twirl{
+  0% {transform : rotateY(0deg)}
+  100% {transform: rotateY(90deg)}
+}
+
+}
