@@ -16,6 +16,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10%;
+}
+
+.card:hover{
+    background-color:rgb(112, 112, 112);
+    transition: 2s;
 }
 
 .card-middle {

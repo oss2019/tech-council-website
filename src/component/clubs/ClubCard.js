@@ -5,10 +5,10 @@ import './samyClub.css';
 const ClubCard = (data) => {
     const [flipped, setFlipped] = React.useState(false);
     return (
-        <ReactCardFlip isFlipped={flipped} flipDirection="vertical">
+        <ReactCardFlip isFlipped={flipped} flipDirection="horizontal">
             <div 
                 className="card" 
-                onMouseEnter={() => setFlipped(true)} 
+                onClick={() => setFlipped(!flipped) } 
                 // onMouseLeave={() => setFlipped(false)}
             >
                 <div className="card-middle">
@@ -19,7 +19,7 @@ const ClubCard = (data) => {
             <div 
                 className="card" 
                 // onMouseEnter={() => setFlipped(true)} 
-                onMouseLeave={() => setFlipped(false)}
+                onClick={() => setFlipped(!flipped) } 
             >
                 <div className="center">
                     <p>{data.desc}</p>

@@ -79,7 +79,7 @@ const useStyles = makeStyles({
         alignItems: "center",
     },
     mr: {
-        marginRight: "12px"
+        marginRight: "20px"
     }
 });
 
