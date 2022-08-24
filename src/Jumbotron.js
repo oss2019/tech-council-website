@@ -4,7 +4,8 @@ const myStyle={
   backgroundImage: 
 "url('http://jimkulakowski.com/web-design/img/parallax-backgrounds/space.jpg')",
 height:'55vh',
-width: '100%'
+width: '100%',
+paddingTop: '10vh'
 }
 class ZoomExample extends React.Component {
   render() { let className = 'hr-color';
@@ -18,7 +19,7 @@ class ZoomExample extends React.Component {
           Indian Institute Council 
           <hr className={className}/>
         </Zoom>
-        <h4> Welcomes you!</h4>
+        <h4> Welcomes you! 2.0</h4>
         
       </div>
       </>
@@ -28,5 +29,3 @@ class ZoomExample extends React.Component {
 export default ZoomExample;
 
     
-
-

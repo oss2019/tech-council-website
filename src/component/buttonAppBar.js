@@ -5,7 +5,9 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
-import { Link } from 'react-scroll';
+
+import { Link } from 'react-scroll'
+
 import './css/style.css';
 //function for the header of the main page
 const useStyles = makeStyles((theme) => ({
@@ -20,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: theme.spacing(10),
   },
   title: {
-    paddingLeft:'26vh',
+
     [theme.breakpoints.up('sm')]: {
       display: 'block',
     },
@@ -32,7 +34,7 @@ export default function ButtonAppBar() {
 
   return (
     
-    <div className={classes.root}>
+    <div className={classes.root} style={{paddingLeft:"10vh"}}>
      
       <AppBar >
       <div className='navbar'>
@@ -41,13 +43,13 @@ export default function ButtonAppBar() {
             </IconButton>
             <Typography variant="h4" className={classes.title}>
             </Typography>
-          <Button color="inherit" paddingLeft='12vh'  className={classes.title}>
-            <Link to="main" spy={true} smooth={true} offset={50} duration={500}>
-              Home 
+          <Button color="inherit"   className={classes.title}>
+            <Link to="club_recruitment" spy={true} smooth={true} offset={50} duration={500}>
+            Club_recruitment
             </Link>
           </Button>
           <Button color="inherit">
-            <Link to="resources" spy={true} smooth={true} duration={500}>
+            <Link to="club" spy={true} smooth={true} duration={500}>
               Resources
             </Link>
           </Button>

@@ -1,27 +1,16 @@
 import React from 'react';
-import ButtonAppBar from './buttonAppBar';
-import Main from './main';
-import Clubs from './clubs/club.js';
-import Contactus from './contactus';
-import Club_recruitment from './club_recruitment'
-import Team from './team';
-import Events from './events';
-import { ThemeProvider } from '@material-ui/core/styles';
-import FooterIconsDemo from './FooterIconsDemo.jsx';
-
-
-
+import Clubs from './clubs/SamyClub.js';
+import Club_recruitment from './club_recruitment';
+import Carousel_main from './carousel/carousel_main';
+import ButtonAppBar from './buttonAppBar.js';
 function Home() {
   
   return (
-    <div>
-    
-      
-        <ButtonAppBar />
+    <div className="overlay-none">
+        <ButtonAppBar/>
         <Club_recruitment />
         <Clubs />
-        <Events/>
-        <Team/>
+        <Carousel_main />
     </div>
   );
 }

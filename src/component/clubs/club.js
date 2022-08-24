@@ -15,27 +15,27 @@ import OSS from "./OSS.png";
 function Clubs() {
   
   return (
-  <div>
-  <div className='resources1'id='resources'>
-    <div className='box1' >
-    <h2 className='club1' style={{paddingRight:'6rem'}}>IITDh Clubs</h2>
-    <h2 className='organizer-head' style={{paddingRight:'4rem'}}>IITDh Organization</h2>
-    <div>
+<div className='resources1'>
+<div className='box1' >
+    <h2 className='club1'>IITDh Clubs</h2>
+    <p/>
     <ul className="panels">
-      <li>
+      <li className="sadock">
         <div className="front">
            
-          <img src={Coding} className='article' style={{ width: 120, height: 120, borderRadius:'5rem',}} alt="Coding Club Logo"/>
+          <div className="moinub">
+          <img src={Coding} className='article' style={{ width: 80, height: 80, borderRadius:'5rem',}} alt="Coding Club Logo"/>
           <p >{Club[0].Name}</p>
+          </div>
           
           </div>
         <div className="back">
           <p className="coding">{Club[0].desc}</p>
         </div>
       </li>
-      <li>
+      <li className="sadock">
         <div className="front">
-          <img src={Cosmosoc}  style={{ width: 120, height: 120, borderRadius:'20rem' }} alt="Cmosmosoc Club Logo"/>
+          <img src={Cosmosoc}  style={{ width: 80, height: 80, borderRadius:'20rem' }} alt="Cmosmosoc Club Logo"/>
           <p> {Club[1].Name}</p>
           </div>
         <div className="back">
@@ -45,7 +45,42 @@ function Clubs() {
         
         
       </li>
-      <li>
+      <li className="sadock">
+        <div className="front" >
+          <img src={AI}  style={{ width: 80, height: 80 , borderRadius:'20rem'}} alt="Artificial Intelligence Logo"/>
+          <p> {Club[2].Name}</p>
+          </div>
+        <div className="back">
+          
+          <p>{Club[2].desc}</p>
+          </div>
+      </li>
+      <li className="sadock">
+        <div className="front">
+          <img src={Robotics}  style={{ width: 80, height: 80 , borderRadius:'20rem'}} alt="Robotics Logo"/>
+          <p>{Club[3].Name}</p>
+          </div>
+        <div className="back">
+          <p>{Club[3].desc}</p>
+        </div>
+        
+      </li>
+      <li className="sadock">
+        <div className="front">
+          <img src={Insolvent} style={{ width: 80, height: 80, borderRadius:'5rem'}} alt="Finance Logo"/>
+        <p>{Club[4].Name}</p>
+        </div>
+        <div className="back">
+          
+          <p>{Club[4].desc}</p>
+          </div>
+      </li>
+      </ul>
+   <div>
+      <h2 className='club1'>IITDh Organization</h2>
+      <p/>
+      <ul className="panels">
+      <li className="none">
         <div className="front" >
           <img src={AI}  style={{ width: 120, height: 120 , borderRadius:'20rem'}} alt="Artificial Intelligence Logo"/>
           <p> {Club[2].Name}</p>
@@ -55,7 +90,7 @@ function Clubs() {
           <p>{Club[2].desc}</p>
           </div>
       </li>
-      <li>
+      <li className="none">
         <div className="front">
           <img src={Robotics}  style={{ width: 120, height: 120 , borderRadius:'20rem'}} alt="Robotics Logo"/>
           <p>{Club[3].Name}</p>
@@ -65,7 +100,15 @@ function Clubs() {
         </div>
         
       </li>
-      <li>
+      <li className='sadock'>
+        <div className="front" ><img src={OSS} style={{ width: 120, height: 80, borderRadius:'20rem' }} alt="OSS"/>
+        <p>{Club[5].Name}</p>
+        </div>
+        <div className="back">
+        {Club[5].desc}
+        </div>
+      </li>
+      <li className="none">
         <div className="front">
           <img src={Insolvent} style={{ width: 120, height: 120, borderRadius:'5rem'}} alt="Finance Logo"/>
         <p>{Club[4].Name}</p>
@@ -77,23 +120,23 @@ function Clubs() {
         
 
       </li>
-
-      
-      <li className='organizer-body'>
-        <div className="organizer-body" className="front" ><img src={OSS} style={{ width: 120, height: 120, borderRadius:'20rem' }} alt="Coding Club Logo"/>
-        <p>{Club[5].Name}</p>
-        </div>
+      <li className="none">
+        <div className="front" >
+          <img src={AI}  style={{ width: 120, height: 120 , borderRadius:'20rem'}} alt="Artificial Intelligence Logo"/>
+          <p> {Club[2].Name}</p>
+          </div>
         <div className="back">
-        {Club[5].desc}
-        </div>
-        
-
+          
+          <p>{Club[2].desc}</p>
+          </div>
       </li>
       </ul>
      </div>
+     <div className="none">
+      <h2 className='club1'>IITDh Organization</h2>
+      </div>
   </div>
-  </div>
-  </div>
+</div>
   )
 }
 

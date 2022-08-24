@@ -1,14 +1,11 @@
 import React from "react";
-import Navbar from "./componets/Navbar";
-import Jumbotron from "./componets/Jumbotron";
-
-
+import Navbar from "./Navbar";
+import Jumbotron from "./Jumbotron";
 import './new.css';
 function New() {
   return (
     <>
-  <Jumbotron />
-  <Navbar />
+    <Jumbotron />
     </>
   );
 }

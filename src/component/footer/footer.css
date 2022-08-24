@@ -1,0 +1,88 @@
+  .App1-header {
+    background-color: #000000;
+    padding-bottom: 10vh;
+    max-height: 37vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1vh + 2vmin);
+    color: white;
+  }
+  
+  .App-link1 {
+    color: #61dafb;
+  }
+
+  
+  .footericons-demo h1 {
+    height: 10vh;
+  }
+  
+  .footericons-demo h1 span {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .3s ease infinite alternate;
+    font-family: 'Titan One'cursive;
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 0 1px 0 green,
+        0 2px 0 green,
+        0 3px 0 green,
+        0 4px 0 green,
+        0 5px 0 green,
+        0 6px 0 transparent,
+        0 7px 0 transparent,
+        0 8px 0 transparent,
+        0 9px 0 transparent,
+        0 10px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .footericons-demo h1 span:nth-child(2) {
+    animation-delay: .1s;
+  }
+  .footericons-demo h1 span:nth-child(3) {
+    animation-delay: .2s;
+  }
+  .footericons-demo h1 span:nth-child(4) {
+    animation-delay: .3s;
+  }
+  .footericons-demo h1 span:nth-child(5) {
+    animation-delay: .4s;
+  }
+    
+  h1 span:nth-child(6) {
+    animation-delay: .5s;
+  }
+  
+  h1 span:nth-child(7) {
+    animation-delay: .6s;
+  }
+  
+  h1 span:nth-child(8) {
+    animation-delay: .7s;
+  }
+  
+  @keyframes bounce {
+    100% {
+        top: -10px;
+        text-shadow: 0 1px 0 #CCC,
+            0 2px 0 #CCC,
+            0 3px 0 #CCC,
+            0 4px 0 #CCC,
+            0 5px 0 #CCC,
+            0 6px 0 #CCC,
+            0 7px 0 #CCC,
+            0 8px 0 #CCC,
+            0 9px 0 #CCC,
+            0 50px 25px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  

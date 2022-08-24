@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css';
+import './club_recruitment.css';
 function Club_recruitment() {
     return (
         <div className="App" style={{minHeight:'180vh'}}>

@@ -2,25 +2,25 @@
     {
         "id": "1",
         "Name":"Coding Club",
-        "desc":"Official Coding Club of IITDh"
+        "desc":"Coding Club of IITDh"
 
     },
     {
         "id": "2",
         "Name":"Cosmosoc Club",
-        "desc":"Official Data Science and Space Club of IITDh"
+        "desc":"Data Science and Space Club of IITDh"
 
     },
     {
         "id": "3",
         "Name":"AI Club",
-        "desc":"Official Artificial Intelligence Club of IITDh"
+        "desc":"Artificial Intelligence Club of IITDh"
 
     },
     {
         "id": "4",
         "Name":"Robotics Club",
-        "desc":"Official Robotics Club of IITDh"
+        "desc":"Robotics Club of IITDh"
 
     },
 

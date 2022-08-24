@@ -1,0 +1,33 @@
+.cunt {
+    background-color:rgb(29, 25, 42);
+    
+}
+
+.heading {
+    text-align: center;
+    padding: 2% 0;
+    color: cyan;
+}
+
+.card {
+    height: 250px;
+    background-color:rgb(102, 102, 102);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

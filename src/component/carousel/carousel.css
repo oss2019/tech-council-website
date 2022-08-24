@@ -1,0 +1,32 @@
+
+.carousel.carousel-slider{
+    margin: auto;
+}
+
+.carousel .thumb{
+    width:5%;
+    height:7vh;
+    margin-top: 0.1vh;
+}
+.carousel{
+    text-align: center;
+}
+.custom-style{
+    padding-left:27vw;
+    width: 75%;
+    padding-top:20vh;
+}
+.carousel.carousel-slider .control-arrow{
+    padding: 1rem;
+}
+.carousel .control-dots {
+    margin-bottom: 0rem;
+}
+.container2 .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
+    color: #f1f1f1;
+    width: 100%;
+}

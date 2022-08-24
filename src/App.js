@@ -1,14 +1,15 @@
 import React from "react";
-import Navbar from "./componets/Navbar";
-import Jumbotron from "./componets/Jumbotron";
-import './App.css';
+
 import Home from './component/home';
-import FooterIconsDemo from './footerIconsDemo.jsx'
+import File from './component/footer/file.js';
+import New from "./new.js";
+
 function App() {
   return (
     <div>
+    <New />
    <Home />
-   <FooterIconsDemo/>
+   <File/>
    </div>
    
 
