@@ -11,7 +11,7 @@ import './samyClub.css';
 function Clubs() {
     const styles = useStyles();
     return (
-        <div className="cunt">
+        <div className="cardbackground">
             <div>
                 <h1 className="heading">IITDh Clubs</h1>
                 <div className={styles.center}>
