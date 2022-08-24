@@ -20,7 +20,6 @@ function FooterIconsDemo() {
         height: '50px',
         width: '50px'
     }
-
     return (
         <>
             <title>{`Footer Icons Demo`}</title>

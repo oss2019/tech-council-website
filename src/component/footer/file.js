@@ -6,7 +6,7 @@ function File() {
   return (
       <div className="App1-header">
         <div style={{center: 'center'}}>
-        <FooterIconsDemo />
+        <div style={{marginBottom: '20px'}}><FooterIconsDemo /></div>
         </div>
       </div>
   );
