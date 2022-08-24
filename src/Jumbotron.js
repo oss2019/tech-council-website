@@ -16,7 +16,7 @@ class ZoomExample extends React.Component {
       <div style={myStyle} className='text'>
 
         <Zoom left cascade>
-          Indian Institute Council 
+          Technical Club Council 
           <hr className={className}/>
         </Zoom>
         <h4> Welcomes you! 2.0</h4>
