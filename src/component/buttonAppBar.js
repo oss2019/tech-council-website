@@ -13,7 +13,7 @@ import './css/style.css';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 6,
-    position: "relative",
+    position: "sticky",
     top : 0,
 
   },
@@ -34,8 +34,7 @@ export default function ButtonAppBar() {
 
   return (
     
-    <div className={classes.root} style={{paddingLeft:"10vh"}}>
-     
+    <div className={classes.root}>
       <AppBar >
       <div className='navbar'>
         <Toolbar >
@@ -44,8 +43,9 @@ export default function ButtonAppBar() {
             <Typography variant="h4" className={classes.title}>
             </Typography>
           <Button color="inherit"   className={classes.title}>
-            <Link to="club_recruitment" spy={true} smooth={true} offset={50} duration={500}>
-            Club_recruitment
+          
+          <Link to="/" spy={true} smooth={true} offset={50} duration={500}>
+              Home 
             </Link>
           </Button>
           <Button color="inherit">

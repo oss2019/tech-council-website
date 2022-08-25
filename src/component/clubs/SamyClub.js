@@ -43,10 +43,11 @@ function Clubs() {
                         container 
                         direction="row" 
                         justifyContent="center" 
-                        alignItems="center" 
+                        alignItems="center"
                     >
                         <Grid item xs={12} sm={2} xl={2}>
-                            <ClubCard Name="Open Source Society" image={OSS} desc="Open Source Society - IITDh organization" />
+                            <ClubCard Name="Open Source Society" image={OSS} desc="Open Source Society - IITDh organization" 
+                            s={{width: 120, height: 80}}/>
                         </Grid>
                     </Grid>
                 </div>
@@ -66,7 +67,7 @@ const useStyles = makeStyles({
         display: "flex",
         flexDirection: "row",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
     },
     mainCenter: {
         paddingTop: "3%",
@@ -79,7 +80,7 @@ const useStyles = makeStyles({
         alignItems: "center",
     },
     mr: {
-        marginRight: "20px"
+        marginRight: "5vh",
     }
 });
 

@@ -5,8 +5,6 @@
     align-items:center;
     justify-content:center;
     background-color:rgb(29, 25, 42);
-    
-    
 }
 /*edit this for the animation of Home Page */
 .typing1 {
@@ -35,4 +33,6 @@
 /*for the background of the header */
 .navbar {
     background-color:rgb(11, 10, 13);
+    position: fixed;
+    width: 100%;
 }
