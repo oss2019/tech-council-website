@@ -4,8 +4,8 @@ Currently, the website has been build as a single page application with React.js
 
 There are two things that we need to do in this website.
 
-- Add routing to the website
-- Make the website responsive
+- [ ] Add routing to the website
+- [ ] Make the website responsive
 
 Routing here, means simply adding a smooth scrolling to the section on clicking the link on the header.
 For more information, please check the issues.
